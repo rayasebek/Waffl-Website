@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+body{
+    font-family: "Ysabeau", sans-serif;
+    background-color: #3abef9;
+    padding: 0 0;
+}
+
+header{
+    background-color: #ff544c;
+    padding: 1.25rem;
+}
+
+nav img{
+    height: 3.5rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 3.5rem;
+}
+
+.nav-links{
+    margin: 0 auto;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.nav-links a{
+    text-decoration: none;
+    background-color: #e3262e;
+    color: white;
+
+    padding: 0.625rem 1.5rem;
+    border-radius: 1.5rem;
+
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-links a:hover{
+    background-color: #c81f26;
+}
+
+
+main{
+    padding: 2.5rem 3.75rem;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem;
+    padding: 3rem 13rem
+}
+
+.card{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    align-items: flex-end;
+    justify-content: center;
+    height: 18rem;
+    border-radius: .5rem;
+    box-shadow: 0.25rem 0.625rem rgba(0, 0, 0, 0.2);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-toppings{
+    background-image: url(images/toppings.jpg);
+    background-position: center;
+}
+
+.card-drinks{
+    background-image: url(images/drinks.jpg);
+    background-position: bottom;
+}
+
+.card-recipies{
+    background-image: url(images/strawberywaffle.jpg);
+    background-position: center;
+}
+
+.card img{
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card h3{
+    background-color: #e02424;
+    font-family: "Young Serif", serif;
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card a{
+    text-decoration: none;
+    font-family: "Young Serif", serif;
+    color: white;
+}
+
+.card :hover{
+    background-color: #c81f26;
+}
+
+.card:nth-child(3){
+    grid-column: 1/-1;;
+}
