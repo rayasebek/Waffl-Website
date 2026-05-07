@@ -176,6 +176,7 @@ hr{
     padding: 6px 0;
     font-size: 1.1rem;
     font-family: "Ysabeau", sans-serif;
+    color: white;
 }
 
 
@@ -445,45 +446,45 @@ footer{
     text-decoration: underline;
 }
 
-main > h2{
+.cmain > h2{
     font-family: "Young Serif", serif;
     font-size: 2.5rem;
     text-align: center;
     margin: 4rem 0 2rem;
 }
 
-main ul{
+.cmain ul{
     list-style: none;
     padding: 0 6rem 4rem;
     max-width: 900px;
     margin: auto;
 }
 
-main li{
+.cmain li{
     margin-bottom: 2rem;
 }
 
-main li span:first-child{
+.cmain li span:first-child{
     display: block;
     font-family: "Young Serif", serif;
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
 }
 
-main li span:last-child{
+.cmain li span:last-child{
     display: block;
     font-family: "Ysabeau", sans-serif;
     font-size: 1.1rem;
     color: #333;
 }
 
-main li a{
+.cmain li a{
     color: #3abef9;
     text-decoration: none;
     font-weight: bold;
 }
 
-main li a:hover{
+.cmain li a:hover{
     text-decoration: underline;
 }
 
