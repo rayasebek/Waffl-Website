@@ -14,20 +14,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Yrsa:ital,wght@0,300..700;1,300..700&family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    <script src="scripts.js"></script>
 </head>
 
 <body>
-    <header class="contacthead">
+    <div class="overlay toggle-nav" onclick="toggleNav()"></div>
+    <header>
+        <div class="hamburger" onclick="toggleNav()">
+            <hr><hr><hr>
+        </div>
+
             <nav class="nav">
                 <a href="index.html" class="logo">
                     <img src="images/WafflLogo.svg" alt="Waffl Logo">
                 </a>
 
-                <div class="cnav-links">
+                <div class="nav-links toggle-nav">
                     <a href="toppings.html">Toppings</a>
                     <a href="drinks.html">Drinks</a>
                     <a href="recipies.html">Recipies</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="index.html">Home</a>
                 </div>
             </nav>
     </header>
@@ -64,9 +70,9 @@
 
     <footer>
         <div class="footlinks">
-            <a href="#howto">How to Order</a>
+            <a href="index.html#howto">How to Order</a>
             <a href="recipies.html">Recipies</a>
-            <a href="#hours">Hours</a>
+            <a href="index.html#hours">Hours</a>
             <a href="contact.html">Contact</a>
         </div>
 
